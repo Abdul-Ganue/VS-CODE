@@ -1,0 +1,66 @@
+.container{
+    background-color: aqua;
+    color: blue;
+    text-align: center;
+    padding: 50pt;
+}
+.container em{
+    color:rgb(236, 10, 10)
+}
+.container span span{
+    color:white;
+    background-color: black;
+    
+}
+.container ul {
+
+display: flex;
+float: right;
+}
+.container ul li{
+    list-style: none;
+    padding: 4pt;
+    text-decoration: none;
+    text-align: left !important;
+}
+.container ul li:hover{
+    background-color: white;
+ color:red;
+}
+.circlesin{
+    /* background-color: brown; */
+    display: flex;
+    padding: 5px;
+align-items: center;
+justify-content: center;
+
+}
+.circlesin .circle1{
+    /* background-color: blue; */
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.circlesin .circle2{
+    background-color:hotpink;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.circlesin .circle3{
+    background-color: lawngreen !important;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.circlesin .circle4{
+    background-color: blue;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}

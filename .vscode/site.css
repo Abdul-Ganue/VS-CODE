@@ -1,0 +1,11 @@
+.navbar ul{
+    display: flex;
+    float:right;
+}
+.navbar ul li{
+list-style: none;
+padding: 3px;
+}
+.navbar ul li a{
+text-decoration: none;
+}

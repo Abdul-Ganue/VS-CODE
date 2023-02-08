@@ -1,0 +1,49 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.game {
+  margin: auto;
+  width: 50%;
+  height: 400px;
+  background-color: beige;
+  border-radius: 15px;
+}
+
+.game-head {
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: chartreuse;
+}
+
+.def-dip {
+  display: block;
+}
+
+.top-btns {
+  margin: auto;
+  padding: 2rem;
+}
+
+.top-btns .btn {
+  margin-right: 15px;
+}
+
+#rand-num {
+  display: flex;
+  justify-content: center;
+}
+
+#rand-num span {
+  padding: 2rem;
+  font-size: 30px;
+  font-weight: bold;
+}
+#add-num{
+  padding: 3px;
+  color: black;
+  background-color: blueviolet;
+}

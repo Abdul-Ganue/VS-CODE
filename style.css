@@ -1,0 +1,18 @@
+#came{
+    background-color: red;
+    height: 50px;
+    width: 400px;
+    margin: auto;
+    text-align:center;;
+    padding:2px 2px 2px 2px;
+}
+
+#info {
+font: size 19px;
+color:oldlace;
+background-color: blueviolet;
+}
+#myself{
+    background-color: aqua;
+    text-align: justify;
+}

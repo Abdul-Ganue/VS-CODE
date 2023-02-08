@@ -1,0 +1,134 @@
+
+body {
+  background-color: bisque !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: rgb(255, 0, 0);
+}
+
+.navbar {
+  width: 100%;
+  height: 85px;
+  background-color: black;
+  display: flex;
+
+  /* float: left; */
+}
+
+.navbar ul {
+  display: flex;
+  float: right !important;
+  margin-right: 10px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 10px 20px 20px 20px;
+  /* background-color: black; */
+}
+
+.navbar ul li:hover {
+  background-color: darkorange;
+  color: red !important;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aliceblue !important;
+}
+.navbar h2 {
+  color: aqua;
+}
+
+.navbar h2 span {
+  color: red;
+  font-family: "Gill Sans";
+  font-size: 30;
+}
+
+.logo {
+  padding-left: 15px;
+  /* margin-right: 50%; */
+}
+
+.section {
+  padding: 20px 0px;
+  background-color: white;
+}
+
+.about-us {
+  padding: 15px 0px;
+  color: black;
+}
+
+.breadcrump {
+  background-image: url("bcr_img.jpg");
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.br-color-bk {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  opacity: 70%;
+}
+
+.breadcrump h2 {
+  color: white;
+  font-size: 40px;
+  /* z-index: 99999; */
+}
+
+.breadcrump .details {
+  /* display: flex; */
+  padding: 20px 100px;
+}
+
+.breadcrump .details p {
+  color: white;
+  font-size: 18px;
+}
+
+body {
+  background-color: bisque !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: blue;
+}
+
+.navbar {
+  width: 100%;
+  height: 85px;
+  background-color: black;
+  display: flex;
+  /* float: left; */
+}
+
+.navbar ul {
+  display: flex;
+  float: right !important;
+  margin-right: 10px;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 10px 20px 20px 20px;
+  /* background-color: black; */
+}
+
+.navbar ul li:hover {
+  background-color: darkorange;
+  color: red !important;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;}

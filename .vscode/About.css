@@ -1,0 +1,77 @@
+.container{
+    background-color:darkkhaki !important;
+    color: blueviolet !important;;
+    text-align: center;
+    padding: 50pt;
+}
+.container em{
+    color:black;
+    text-shadow: 5px 5px 5px yellow !important;
+    font-weight: bolder;
+    text-decoration: underline !important;
+
+}
+.container span span{
+    color:white;
+    background-color: black;
+    
+}
+.container ul {
+
+display: flex;
+float: right;
+}
+.container ul li{
+    list-style: none;
+    padding: 4pt;
+    text-decoration: none;
+    text-align: left !important;
+}
+.container ul li:hover{ 
+    background-color: white;
+ color:red;
+
+}
+.circlesin{
+    background-color: green;
+    display: flex;
+    padding: 5px;
+align-items: center;
+justify-content: center;
+
+}
+.circlesin .circle1{
+    background-color:yellow;
+    height: 100px;
+    width: 120px;
+    border-radius: 40%;
+    margin: 1rem;
+}
+.circlesin div img{
+    border-radius: 50%;
+    max-zoom: 200%;
+    height: 100%;
+    width: 100%; 
+ }
+
+.circlesin .circle2{
+    background-color: blue;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.circlesin .circle3{
+    background-color: yellow;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.circlesin .circle4{
+    background-color: blue;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 1rem;
+}

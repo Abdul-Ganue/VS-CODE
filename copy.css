@@ -1,0 +1,74 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+.game-head{
+  font: optional;
+  color:chartreuse;
+  background-attachment: rgb(218, 64, 64);
+  text-align:center;
+  background-color: hotpink;
+  padding: 10px;
+}
+#limit{
+  text-align: left;
+  color:  black;
+  padding: 2px;
+  background-color: aquamarine;
+  font-size: 30;
+  font-style: italic;
+}
+#top-info {
+  text-align:left;
+  padding: 2px;
+}
+  .game {
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    background-color: beige;
+    border-radius: 15px;
+  }
+
+  .game_ {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+
+  .def-dip {
+    display: block;
+  }
+
+  .top-btns {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    
+  }
+  #def-dip{
+    text-align: left;
+  }
+
+  .top-btns .btn {
+    margin-right: 15px;
+    background-color: blue;
+    color: chartreuse;
+  }
+
+  #rand-num {
+    display: flex;
+    justify-content: center;
+    backgroun-color: blue;
+    
+  }
+.btn-danger{
+  text-align: end;
+  color: red;
+}
+  #rand-num span {
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: bold}

@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="blog.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="game">
+          <div class="game-head">MATHEMATICAL GAME</div>
+          <div class="game-area">
+            <div class="top-btns def-dip">
+              <button
+                id="btnStart"
+                class="btn btn-success"
+                onclick="nextRand()"
+              >
+                Start Game
+              </button>
+              <button class="btn btn-danger" onclick="stopGame()">
+                End Game
+              </button>
+
+              <div id="top-info def-dip">
+                <label>Limit: </label> <span id="initial-num"></span>
+              </div>
+
+              <div class="def-dip" id="rand-num">
+                <span id="num1">0</span>
+                <span id="num2">0</span>
+              </div>
+              <div id="ad-num">
+                <span id="addNum">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

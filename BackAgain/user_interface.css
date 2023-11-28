@@ -1,0 +1,199 @@
+body{
+    background: linear-gradient(40deg, blue , red);
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: wheat;
+    justify-content: center;
+   align-items: center;
+
+}
+    
+.first_d{
+    height: 42%;
+    width: 100%;
+    background: darkgreen;
+    display: flex;
+    flex-direction: column;  
+    
+
+   
+}
+.first_d:active{
+    box-shadow: 0 30px 50px black;
+    
+}
+ .my_logo{
+    
+    justify-content: center;
+    text-shadow: 0px -18px 1px black;
+    width: 200px;
+    border-radius: 5%;
+    background:white;
+   display: contents;
+    height: 10%;
+ 
+}
+.first_d .my_logo img{
+   height: 100px;
+    width: 100px;
+    clip-path: circle(80% at 0 0);
+}
+.first_d .fddd1{
+   width: 100%;
+justify-content: center;
+margin-top: -70px;
+    text-align: center;
+
+}
+.first_d_row1{
+    
+    margin-right: 110;
+    justify-content: center;
+    align-items: center;
+}
+.first_d_row1 span {
+color: yellow;
+font-weight: bold;
+
+}
+.first_d_row2{
+    font-size: 60px;
+    font-family:cursive;
+    margin-top: -18px;
+    margin-bottom: -18px;
+}
+.first_d_row3{
+    padding-left: 150px;
+
+}
+.first_d_row3 span{
+    color: yellow;
+    font-weight: bold;
+}
+.first_d_row4{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 70px;
+margin-right: 10px;
+
+}
+.pac_perk{
+    margin-bottom: -17px;
+    background-color: red;
+    width: 150px;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    font-weight: bold;
+
+}
+.pack_detail p{
+   font-size: 15px;
+    font-weight:lighter;
+    margin-right: 40px;
+}
+.first_d_row4 .first_d_row4_im{
+    
+    background-color: red;
+    border-radius: 50%;
+    height: 120px;
+    width: 110px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+.first_d_row4_im img{
+ 
+    border-radius: 50%;
+    height: 120px;
+    width: 110px;
+   margin-right: 20px;
+   rotate: 30deg;
+    margin-top: -20px;
+}
+.Second_d{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+margin-left: 30px;
+
+}
+.third_d{
+    text-align: center;
+    color:chartreuse;
+    font-size: 20px;
+margin-top: -20;
+}
+.fourth_d{
+    display: flex;
+    margin-top: -25px;
+    box-shadow: 0 30px 50px yellow;
+}
+button{
+    height: 30px;
+    border-radius: 40%;
+font-weight: bold;
+color: brown;
+
+}
+.stand{
+    border-top-right-radius: 30%;
+    width: 50%;
+    background-color: green;
+    margin-left: 10px;
+    text-align: center;
+    height: 270;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.stand_1{
+    font-weight: bold;
+    padding-top:15px ;
+    padding-bottom:5px ;
+}
+
+.stand_3{
+    margin-left: 20px;
+    text-align: left;
+}
+.instal{
+    border-top-left-radius: 30%;
+    width: 50%;
+    background-color:darkgreen;
+    margin-right: 10px;
+    text-align: center;
+    height: 270px;
+    align-items: center;
+}
+.instal_1{
+    font-weight: bold;
+    padding-top:15px ;
+    padding-bottom:5px ;
+}
+
+.instal_3 {
+text-align: left;
+color: yellow;
+margin-left: 15px;
+}
+.note{
+ color: white;
+}
+.fifth_d{
+    color: yellow;
+    background-color: darkgreen;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 14px;
+    font-weight: bold;
+    border-radius: 40%;
+    height: 30;
+    justify-content: center;
+padding-top: 5;
+}
+.fifth_d span{
+    color: white;
+}

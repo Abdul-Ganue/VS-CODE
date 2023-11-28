@@ -1,0 +1,66 @@
+body{
+    background-color: cornsilk;
+    color: black;
+}
+.firstm{
+    display: flex;
+    align-items: center;
+    float: right;
+color: white;
+
+}
+.first1{
+    background-color: blue;
+    height: 20px;
+    width: 40px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 0px;
+    cursor: help;
+
+}
+.tr{
+    height:30px;
+    width: 100%;
+    background-color:red;
+    color:black;
+}
+.first1:hover{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    transform:scale(1);
+}
+.first2{
+    background-color: blue;
+    height: 20px;
+    width: 50px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;;
+}
+.first3{
+    background-color: blue;
+    height: 20px;
+    width: 50px;
+    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;;
+}
+@keyframes colorchange {
+    from{background-color: aliceblue;}
+    to{background-color:red;}
+    0%{background-color:blueviolet;}
+    10%{background-color: green;}
+    20%{background-color: aqua;}
+    30%{background-color: brown;}
+    40%{background-color: chartreuse;}
+    50%{background-color: chocolate;}
+    60%{background-color: fuchsia}
+    70%{background-color: indigo;}
+    80%{background-color: aqua;}
+    90%{background-color: green;}
+}
+.second{
+    background-color: black;    
+    color: white;
+    height: 25px;
+    width: 100%
+}

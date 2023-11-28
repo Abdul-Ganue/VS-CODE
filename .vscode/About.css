@@ -1,6 +1,6 @@
 .container{
-    background-color:darkkhaki !important;
-    color: blueviolet !important;;
+    background-color:darkkhaki ;
+    
     text-align: center;
     padding: 50pt;
 }
@@ -28,8 +28,8 @@ float: right;
     text-align: left !important;
 }
 .container ul li:hover{ 
-    background-color: white;
- color:red;
+background-color: blue;
+ color:rgb(255, 255, 255);
 
 }
 .circlesin{
@@ -49,7 +49,7 @@ justify-content: center;
 }
 .circlesin div img{
     border-radius: 50%;
-    max-zoom: 200%;
+    
     height: 100%;
     width: 100%; 
  }

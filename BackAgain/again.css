@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.im{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(168, 149, 187);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.upp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center
+
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+ background: linear-gradient(45deg, #f06, #9055);
+ 
+}
+.container{
+    width: 70%;
+    border-radius: 5%;
+    background:rgba(315, 255, 255, 0.5);
+    padding: 20px;
+    box-shadow: 0 55px 50px rgba(0, 0, 0);
+
+}
+ form{
+    width: 100%;
+   
+   
+}
+.container form h1 span:hover{
+    color: #fff;
+  
+   
+}
+.container form h1 span{
+    color: gray;
+   
+    
+}
+.container form h1{
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2px ;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.form_input{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form_input label{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+.form_input input{
+    padding: 15px 10px  ;
+    border-radius: 8px;
+    background:transparent;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.form_input input::placeholder{
+    color: white;
+    
+}
+.forget_signup{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.forget_signup a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    transition:0.5s;
+}
+.forget_signup a:hover{
+    color: #0f2330;
+}
+form button{
+    width: 100% ;
+color: #fff;
+background: transparent;
+font-size: 18px;
+padding: 12px 0;
+font-weight: 600;
+border-radius: 8px;
+border: 1px solid rgb(red, green, blue) ;
+margin-top: 15px;
+cursor: pointer;
+}
+form button:hover{
+    transform: scale(0.92);
+    color: #0f2330;
+}
+form button :active{
+    transform: scale(0.92);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

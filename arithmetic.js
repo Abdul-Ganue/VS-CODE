@@ -28,6 +28,6 @@ let result;
 // if (3 + 4 < 4) result = "yoo";
 // else result = "hmm";
 
-result = 3 + 4 > 4 ? "yoo" : "hmm";
+result = 3 + 4 > 9 ? "yoo" : "hmm";
 
 console.log(result);

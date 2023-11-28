@@ -90,7 +90,7 @@ font-weight: bold;
  .row3 .row3-2 img{
     height: 180px;
     width: 200px;
-    align-content:space-around;
+    /* align-content:space-around; */
     margin-left: 5px; 
     margin-top: 10px;
 }
